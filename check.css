@@ -1,4 +1,13 @@
-p      { color: green; }
+p      { color: green !important; }
 .note  { color: orange; }
 #intro { color: blue; }
 #green{ color:green;}
+.box{
+    height:200px;
+    width:200px;
+    background-color:bisque;
+    border:1px solid black;
+    box-sizing: border-box;
+    padding:20px;
+    margin:10px;
+}
